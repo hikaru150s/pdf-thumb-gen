@@ -2,6 +2,7 @@ import {
     Canvas,
     createCanvas,
     CanvasRenderingContext2D,
+    loadImage
 } from 'canvas';
 import { strict as assert } from 'assert';
 
@@ -15,6 +16,14 @@ export class CanvasFactory {
         assert(width > 0 && height > 0, 'Invalid canvas size');
         const canvas = createCanvas(width, height);
         const context = canvas.getContext('2d');
+        return { canvas, context };
+    }
+
+    async createFromImage(dataSrc: string | Buffer, width: number = 256, height: number = 256) {
+        const ref = await loadImage(dataSrc);
+        const canvas = createCanvas(width, height);
+        const context = canvas.getContext('2d');
+        context.drawImage(ref, 0, 0, ref.width, ref.height, 0, 0, width, height);
         return { canvas, context };
     }
 

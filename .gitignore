@@ -345,3 +345,7 @@ tests/*.png
 dist/
 coverage
 *.lcov
+!w3c_home.bmp
+!w3c_home.gif
+!w3c_home.jpg
+!w3c_home.png

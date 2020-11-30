@@ -38,6 +38,10 @@
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="tests\Lorem_ipsum.pdf" />
+    <Content Include="tests\w3c_home.bmp" />
+    <Content Include="tests\w3c_home.gif" />
+    <Content Include="tests\w3c_home.jpg" />
+    <Content Include="tests\w3c_home.png" />
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>

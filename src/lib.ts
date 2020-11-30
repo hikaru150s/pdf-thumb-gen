@@ -34,3 +34,9 @@ export async function generateThumbnail(pathOrData: string | Buffer) {
         compressionLevel: 9,
     });
 }
+
+export async function generateImageThumbnail(dataSrc: string | Buffer, width?: number, height?: number): Promise<Buffer> {
+    const factory = new CanvasFactory();
+    const ref = await factory.createFromImage(dataSrc, width, height);
+    return ref.canvas.toBuffer('image/png', { compressionLevel: 9 });
+}
