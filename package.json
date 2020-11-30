@@ -5,7 +5,8 @@
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
   "author": {
-    "name": "Haikal Handamara"
+    "name": "Haikal Handamara",
+    "email": "haikal_adha@hotmail.com"
   },
   "scripts": {
     "build": "tsc --build",
