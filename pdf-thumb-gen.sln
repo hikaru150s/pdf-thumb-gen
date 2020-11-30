@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "pdf-thumb-gen", "pdf-thumb-gen.njsproj", "{7C85D98D-AB79-4646-A716-98CE7BAF4D1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C85D98D-AB79-4646-A716-98CE7BAF4D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C85D98D-AB79-4646-A716-98CE7BAF4D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C85D98D-AB79-4646-A716-98CE7BAF4D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C85D98D-AB79-4646-A716-98CE7BAF4D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DC9D3BB-5D4F-4EB4-842C-F5AC782701D7}
+	EndGlobalSection
+EndGlobal
