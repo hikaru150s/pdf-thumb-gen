@@ -1,6 +1,6 @@
 {
   "name": "pdf-thumb-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pdf-thumb-gen",
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
@@ -14,10 +14,10 @@
     "start": "ts-node src/lib.ts",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test",
-	"prepare": "npm run clean && npm run build",
-	"prepublishOnly" : "npm test",
-	"version" : "git add -A src",
-	"postversion" : "git push && git push --tags"
+    "prepare": "npm run clean && npm run build",
+    "prepublishOnly": "npm test",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "canvas": "^2.6.1",
