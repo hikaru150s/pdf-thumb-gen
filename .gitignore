@@ -338,3 +338,10 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# Other
+tests/*.png
+.nyc_output/
+dist/
+coverage
+*.lcov
