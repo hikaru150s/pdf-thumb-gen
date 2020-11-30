@@ -12,8 +12,8 @@ Provides a simple API to generate PDF thumbnail for Node.js
 
 `generateThumbnail` will generate a PNG-based `Buffer` thumbnail.
 
-| Params | Type | Description
----
+| Params | Type | Description|
+|---|---|---|
 | `pathOrData` | `string` or `Buffer` | PDF File, either local file path or `Buffer` containing PDF file
 
 ## Usage
